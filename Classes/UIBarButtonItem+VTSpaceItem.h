@@ -25,7 +25,7 @@
 
 @interface UIBarButtonItem (VTSpaceItem)
 
-+ (UIBarButtonItem *)vt_flexibleSpaceItem;
-+ (UIBarButtonItem *)vt_fixedSpaceItemWithWidth:(CGFloat)width;
++ (instancetype)vt_flexibleSpaceItem;
++ (instancetype)vt_fixedSpaceItemWithWidth:(CGFloat)width;
 
 @end
