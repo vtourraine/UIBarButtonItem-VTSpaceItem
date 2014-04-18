@@ -1,5 +1,5 @@
 //
-// UIBarButtonItem+SZNSpaceItem.h
+// UIBarButtonItem+VTSpaceItem.h
 //
 // Copyright (c) 2014 Vincent Tourraine (http://www.vtourraine.net)
 //
