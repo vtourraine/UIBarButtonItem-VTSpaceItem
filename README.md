@@ -5,6 +5,8 @@ _`UIBarButtonItem` category for space items._
 ## How to use
 
 ``` objc
+UIBarButtonItem *flexibleSpaceItem = [UIBarButtonItem vt_flexibleSpaceItem];
+UIBarButtonItem *fixedSpaceItem    = [UIBarButtonItem vt_fixedSpaceItemWithWidth:20];
 ```
 
 ## Credits
