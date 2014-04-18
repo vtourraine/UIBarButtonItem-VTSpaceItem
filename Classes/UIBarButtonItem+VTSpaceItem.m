@@ -25,12 +25,12 @@
 
 @implementation UIBarButtonItem (VTSpaceItem)
 
-+ (UIBarButtonItem *)vt_flexibleSpaceItem
++ (instancetype)vt_flexibleSpaceItem
 {
     return [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
 }
 
-+ (UIBarButtonItem *)vt_fixedSpaceItemWithWidth:(CGFloat)width
++ (instancetype)vt_fixedSpaceItemWithWidth:(CGFloat)width
 {
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
     item.width = width;
