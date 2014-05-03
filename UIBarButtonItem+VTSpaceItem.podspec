@@ -14,9 +14,10 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/vtourraine"
 
   s.source       = { :git => "https://github.com/vtourraine/UIBarButtonItem-VTSpaceItem.git", :tag => "0.1" }
-  s.source_files  = "Classes"
+  s.source_files = "Classes"
+  s.platform     =  :ios
 
-  s.framework  = "UIKit"
+  s.framework    = "UIKit"
 
   s.requires_arc = true
 
