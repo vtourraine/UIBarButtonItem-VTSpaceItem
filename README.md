@@ -1,6 +1,6 @@
 # UIBarButtonItem+VTSpaceItem
 
-_`UIBarButtonItem` category for space items._ 
+_`UIBarButtonItem` category for space items. This is just a shorter and hopefully nicer way to instantiate the system space bar button items._ 
 
 
 ## How to install
