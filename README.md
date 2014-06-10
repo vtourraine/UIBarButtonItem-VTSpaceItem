@@ -1,6 +1,16 @@
 # UIBarButtonItem+VTSpaceItem
 
-_`UIBarButtonItem` category for space items._
+_`UIBarButtonItem` category for space items. This is just a shorter and hopefully nicer way to instantiate the system space bar button items._ 
+
+
+## How to install
+
+Available on CocoaPods. ![CocoaPods version badge](https://cocoapod-badges.herokuapp.com/v/UIBarButtonItem+VTSpaceItem/badge.png) 
+![CocoaPods platform badge](https://cocoapod-badges.herokuapp.com/p/UIBarButtonItem+VTSpaceItem/badge.png)
+
+``` ruby
+pod 'UIBarButtonItem+VTSpaceItem'
+```
 
 ## How to use
 
