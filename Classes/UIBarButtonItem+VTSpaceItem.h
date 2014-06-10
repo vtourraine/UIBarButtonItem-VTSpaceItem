@@ -23,9 +23,25 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ `UIBarButtonItem` category for easy to instantiate space items.
+ */
 @interface UIBarButtonItem (VTSpaceItem)
 
+/**
+ Creates a flexible space item (`UIBarButtonSystemItemFlexibleSpace`).
+
+ @return A newly created item.
+ */
 + (instancetype)vt_flexibleSpaceItem;
+
+/**
+ Creates a fixed space item (`UIBarButtonSystemItemFixedSpace`).
+
+ @param width Size for the fixed space.
+
+ @return A newly created item.
+ */
 + (instancetype)vt_fixedSpaceItemWithWidth:(CGFloat)width;
 
 @end
