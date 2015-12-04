@@ -37,7 +37,7 @@
 
  @return A newly created item.
  */
-+ (instancetype)vt_flexibleSpaceItem;
++ (nonnull instancetype)vt_flexibleSpaceItem;
 
 /**
  Creates a fixed space item (`UIBarButtonSystemItemFixedSpace`).
@@ -46,6 +46,6 @@
 
  @return A newly created item.
  */
-+ (instancetype)vt_fixedSpaceItemWithWidth:(CGFloat)width;
++ (nonnull instancetype)vt_fixedSpaceItemWithWidth:(CGFloat)width;
 
 @end
